@@ -1,0 +1,30 @@
+# Keil build outputs
+Objects/
+Listings/
+*.o
+*.d
+*.crf
+*.htm
+*.lnp
+*.map
+*.lst
+*.dep
+*.iex
+*.axf
+*.elf
+*.hex
+*.bin
+
+# Keil temporary/user noise
+*.bak
+*.uvguix.*
+*.scvd
+*.dbgconf
+
+# macOS
+.DS_Store
+
+# Python tools
+__pycache__/
+*.pyc
+.venv/
