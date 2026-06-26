@@ -50,7 +50,7 @@
 
 #define SCU_BCON1 (0x1) /*decimal 1*/
 
-#define SCU_BCON2 (0x0) /*decimal 0*/
+#define SCU_BCON2 (0x1) /*decimal 1*/
 
 #define SCU_CKOUT_FREQ (0x28) /*decimal 40*/
 

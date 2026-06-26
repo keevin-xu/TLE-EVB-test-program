@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <icwpxml version="2.9.0">
-    <checksum>3d8fe48282e9d99c827108d4c1347532a648293648cafb559c7f16fe76dd5bf2</checksum>
+    <checksum>540f102141e988dcab5155716307507a640297c3b495d91da5eab67a7bd08436</checksum>
     <XmlFile>ICW_TLE985x.xml</XmlFile>
     <XmlVersion>V1.3.1</XmlVersion>
     <ActiveElements>
@@ -1446,33 +1446,13 @@ p, li { white-space: pre-wrap; }
         <ButtonGroup>
             <define>PORT.P1_DIR.PP0</define>
             <value>0</value>
-            <dispValue>0</dispValue>
+            <dispValue>1</dispValue>
         </ButtonGroup>
-        <ComboBox>
-            <define>PORT.P1_DATA.PP0</define>
-            <value>0</value>
-            <dispValue>0</dispValue>
-        </ComboBox>
-        <ComboBox>
-            <define>PORT.P1_OD.PP0</define>
-            <value>0</value>
-            <dispValue>0</dispValue>
-        </ComboBox>
-        <ComboBox>
-            <define>PORT.P1_0_ALT[1:0]</define>
-            <value>0</value>
-            <dispValue>0</dispValue>
-        </ComboBox>
         <ComboBox>
             <define>PORT.P1_0_PUD[1:0]</define>
             <value>0</value>
             <dispValue>0</dispValue>
         </ComboBox>
-        <ButtonGroup>
-            <define>PORT.P1_DIR.PP1</define>
-            <value>0</value>
-            <dispValue>0</dispValue>
-        </ButtonGroup>
         <ComboBox>
             <define>PORT.P1_DATA.PP1</define>
             <value>0</value>
@@ -6858,11 +6838,6 @@ p, li { white-space: pre-wrap; }
             <value>0</value>
             <dispValue>0</dispValue>
         </ComboBox>
-        <ComboBox>
-            <define>UART2.SCON[7:6]</define>
-            <value>0</value>
-            <dispValue>0</dispValue>
-        </ComboBox>
         <CheckBox>
             <define>UART2.SCON.SM2</define>
             <value>0</value>
@@ -6878,26 +6853,11 @@ p, li { white-space: pre-wrap; }
             <value>0</value>
             <dispValue>0</dispValue>
         </CheckBox>
-        <CheckBox>
-            <define>SCU.BCON2.BR2_R</define>
-            <value>0</value>
-            <dispValue>0</dispValue>
-        </CheckBox>
         <SpinBox>
             <define>UART2.MAN_BAUDRATE</define>
             <value>19200</value>
             <dispValue>19200</dispValue>
         </SpinBox>
-        <CheckBox>
-            <define>UART2.TXD_PINSEL</define>
-            <value>0</value>
-            <dispValue>0</dispValue>
-        </CheckBox>
-        <CheckBox>
-            <define>UART2.RXD_PINSEL</define>
-            <value>0</value>
-            <dispValue>0</dispValue>
-        </CheckBox>
         <CheckBox>
             <define>UART2.RX_INT_EN</define>
             <value>0</value>
@@ -7483,5 +7443,45 @@ p, li { white-space: pre-wrap; }
             <value>0</value>
             <dispValue>0</dispValue>
         </ComboBox>
+        <CheckBox>
+            <define>SCU.BCON2.BR2_R</define>
+            <value>1</value>
+            <dispValue>1</dispValue>
+        </CheckBox>
+        <ComboBox>
+            <define>UART2.SCON[7:6]</define>
+            <value>1</value>
+            <dispValue>1</dispValue>
+        </ComboBox>
+        <ComboBox>
+            <define>PORT.P1_DATA.PP0</define>
+            <value>0</value>
+            <dispValue>0</dispValue>
+        </ComboBox>
+        <ComboBox>
+            <define>PORT.P1_OD.PP0</define>
+            <value>0</value>
+            <dispValue>0</dispValue>
+        </ComboBox>
+        <ComboBox>
+            <define>PORT.P1_0_ALT[1:0]</define>
+            <value>0</value>
+            <dispValue>3</dispValue>
+        </ComboBox>
+        <CheckBox>
+            <define>UART2.TXD_PINSEL</define>
+            <value>1</value>
+            <dispValue>1</dispValue>
+        </CheckBox>
+        <ButtonGroup>
+            <define>PORT.P1_DIR.PP1</define>
+            <value>0</value>
+            <dispValue>0</dispValue>
+        </ButtonGroup>
+        <CheckBox>
+            <define>UART2.RXD_PINSEL</define>
+            <value>0</value>
+            <dispValue>0</dispValue>
+        </CheckBox>
     </ActiveElements>
 </icwpxml>

@@ -58,10 +58,10 @@
 
 #define UART2_RXD_PINSEL (0x0) /*decimal 0*/
 
-#define UART2_SCON (0x0) /*decimal 0*/
+#define UART2_SCON (0x40) /*decimal 64*/
 
 #define UART2_STD_EN (0x0) /*decimal 0*/
 
-#define UART2_TXD_PINSEL (0x0) /*decimal 0*/
+#define UART2_TXD_PINSEL (0x1) /*decimal 1*/
 
 #endif /* UART_DEFINES_H */

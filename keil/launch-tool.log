@@ -58,3 +58,18 @@
 2026/06/26 22:56:47 Starting "C:\\Users\\KevinXu\\Infineon\\LauncherService\\idc-launcher-service.exe" with arguments []string{"-featureid", "com.ifx.tb.tool.ifxconfigwizardforembeddedpowerics:2.7.6.202506301149", "-notification", "-toolbox.service", "checkUpdate com.ifx.tb.tool.ifxconfigwizardforembeddedpowerics"}
 2026/06/26 22:56:47 Starting "C:\\Users\\KevinXu\\Infineon\\LauncherService\\idc-launcher-service.exe" in directory "C:\\Users\\KevinXu\\Infineon\\LauncherService"
 2026/06/26 22:56:47 Started "C:\\Users\\KevinXu\\Infineon\\LauncherService\\idc-launcher-service.exe" as PID 9496
+2026/06/26 23:14:16 Started Launch Tool 2.0.7
+2026/06/26 23:14:16 Started as PID 13876
+2026/06/26 23:14:16 Started with arguments []string{"C:\\Users\\KevinXu\\Infineon\\Tools\\MCU-Config-Wizard\\2.7.6.202506301149\\resources\\launch-tool.exe", "C:\\Users\\KevinXu\\Documents\\keil_uvision_projects\\TLE_test_programs\\keil\\RTE\\Device\\TLE9855QX\\config.icwp", "-ddevice=TLE9855QX"}
+2026/06/26 23:14:16 Started in directory C:\Users\KevinXu\Documents\keil_uvision_projects\TLE_test_programs\keil
+2026/06/26 23:14:16 Reading tool data
+2026/06/26 23:14:16 Reading "C:\\Users\\KevinXu\\Infineon\\Tools\\MCU-Config-Wizard\\2.7.6.202506301149\\resources\\tool-details.json"
+2026/06/26 23:14:16 Validating tool data
+2026/06/26 23:14:16 Starting tool &main.Tool{FeatureID:"com.ifx.tb.tool.ifxconfigwizardforembeddedpowerics", Title:"Infineon MCU Configuration Wizard", Version:"2.7.6.202506301149", Path:"C:\\Users\\KevinXu\\Infineon\\Tools\\MCU-Config-Wizard\\2.7.6.202506301149\\/ConfigWizard.exe"}
+2026/06/26 23:14:16 Starting "C:\\Users\\KevinXu\\Infineon\\Tools\\MCU-Config-Wizard\\2.7.6.202506301149\\/ConfigWizard.exe" with arguments []string{"C:\\Users\\KevinXu\\Documents\\keil_uvision_projects\\TLE_test_programs\\keil\\RTE\\Device\\TLE9855QX\\config.icwp", "-ddevice=TLE9855QX"}
+2026/06/26 23:14:16 Starting "C:\\Users\\KevinXu\\Infineon\\Tools\\MCU-Config-Wizard\\2.7.6.202506301149\\/ConfigWizard.exe" in directory "C:\\Users\\KevinXu\\Infineon\\Tools\\MCU-Config-Wizard\\2.7.6.202506301149"
+2026/06/26 23:14:16 Started "C:\\Users\\KevinXu\\Infineon\\Tools\\MCU-Config-Wizard\\2.7.6.202506301149\\/ConfigWizard.exe" as PID 13972
+2026/06/26 23:14:16 Starting Launcher Service
+2026/06/26 23:14:16 Starting "C:\\Users\\KevinXu\\Infineon\\LauncherService\\idc-launcher-service.exe" with arguments []string{"-featureid", "com.ifx.tb.tool.ifxconfigwizardforembeddedpowerics:2.7.6.202506301149", "-notification", "-toolbox.service", "checkUpdate com.ifx.tb.tool.ifxconfigwizardforembeddedpowerics"}
+2026/06/26 23:14:16 Starting "C:\\Users\\KevinXu\\Infineon\\LauncherService\\idc-launcher-service.exe" in directory "C:\\Users\\KevinXu\\Infineon\\LauncherService"
+2026/06/26 23:14:16 Started "C:\\Users\\KevinXu\\Infineon\\LauncherService\\idc-launcher-service.exe" as PID 9028
