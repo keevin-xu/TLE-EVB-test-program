@@ -64,7 +64,7 @@
 
 #define SCU_IEN0 (0x80000000) /*decimal 2147483648*/
 
-#define SCU_MODPISEL (0x40) /*decimal 64*/
+#define SCU_MODPISEL (0x0) /*decimal 0*/
 
 #define SCU_MODPISEL1 (0x0) /*decimal 0*/
 

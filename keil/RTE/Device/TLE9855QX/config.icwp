@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <icwpxml version="2.9.0">
-    <checksum>212dad8006f118f02f5662624ff8ec08a6e3749c5013d90b8085d1effaa3fe57</checksum>
+    <checksum>3d8fe48282e9d99c827108d4c1347532a648293648cafb559c7f16fe76dd5bf2</checksum>
     <XmlFile>ICW_TLE985x.xml</XmlFile>
     <XmlVersion>V1.3.1</XmlVersion>
     <ActiveElements>
@@ -1343,11 +1343,6 @@ p, li { white-space: pre-wrap; }
             <value>0</value>
             <dispValue>0</dispValue>
         </ComboBox>
-        <ButtonGroup>
-            <define>PORT.P0_DIR.PP1</define>
-            <value>0</value>
-            <dispValue>0</dispValue>
-        </ButtonGroup>
         <ComboBox>
             <define>PORT.P0_DATA.PP1</define>
             <value>0</value>
@@ -1368,11 +1363,6 @@ p, li { white-space: pre-wrap; }
             <value>0</value>
             <dispValue>0</dispValue>
         </ComboBox>
-        <ButtonGroup>
-            <define>PORT.P0_DIR.PP2</define>
-            <value>0</value>
-            <dispValue>1</dispValue>
-        </ButtonGroup>
         <ComboBox>
             <define>PORT.P0_2_PUD[1:0]</define>
             <value>0</value>
@@ -7463,6 +7453,11 @@ p, li { white-space: pre-wrap; }
             <value>1</value>
             <dispValue>1</dispValue>
         </CheckBox>
+        <ButtonGroup>
+            <define>PORT.P0_DIR.PP1</define>
+            <value>0</value>
+            <dispValue>0</dispValue>
+        </ButtonGroup>
         <ComboBox>
             <define>PORT.P0_DATA.PP2</define>
             <value>0</value>
@@ -7476,12 +7471,17 @@ p, li { white-space: pre-wrap; }
         <ComboBox>
             <define>PORT.P0_2_ALT[1:0]</define>
             <value>0</value>
-            <dispValue>2</dispValue>
+            <dispValue>0</dispValue>
         </ComboBox>
+        <ButtonGroup>
+            <define>PORT.P0_DIR.PP2</define>
+            <value>0</value>
+            <dispValue>0</dispValue>
+        </ButtonGroup>
         <ComboBox>
             <define>SCU.MODPISEL.URIOS1</define>
-            <value>1</value>
-            <dispValue>1</dispValue>
+            <value>0</value>
+            <dispValue>0</dispValue>
         </ComboBox>
     </ActiveElements>
 </icwpxml>

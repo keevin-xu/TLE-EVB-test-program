@@ -40,7 +40,7 @@
 
 #define PORT_P0_1_PUD (0x0) /*decimal 0*/
 
-#define PORT_P0_2_ALT (0x2) /*decimal 2*/
+#define PORT_P0_2_ALT (0x0) /*decimal 0*/
 
 #define PORT_P0_2_PUD (0x0) /*decimal 0*/
 
@@ -58,7 +58,7 @@
 
 #define PORT_P0_DATA (0x0) /*decimal 0*/
 
-#define PORT_P0_DIR (0x4) /*decimal 4*/
+#define PORT_P0_DIR (0x0) /*decimal 0*/
 
 #define PORT_P0_OD (0x0) /*decimal 0*/
 
