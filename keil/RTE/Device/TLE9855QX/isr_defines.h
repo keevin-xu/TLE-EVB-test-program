@@ -236,6 +236,10 @@
 
 #define BDRV_ASEQ_HB1_INT_EN (0x0) /*decimal 0*/
 
+#define BDRV_ASEQ_HB2_CALLBACK place_your_function_call_back_here
+
+#define BDRV_ASEQ_HB2_INT_EN (0x0) /*decimal 0*/
+
 #define BDRV_HS1_DS_CALLBACK place_your_function_call_back_here
 
 #define BDRV_HS1_DS_INT_EN (0x0) /*decimal 0*/
@@ -244,6 +248,14 @@
 
 #define BDRV_HS1_OC_INT_EN (0x0) /*decimal 0*/
 
+#define BDRV_HS2_DS_CALLBACK place_your_function_call_back_here
+
+#define BDRV_HS2_DS_INT_EN (0x0) /*decimal 0*/
+
+#define BDRV_HS2_OC_CALLBACK place_your_function_call_back_here
+
+#define BDRV_HS2_OC_INT_EN (0x0) /*decimal 0*/
+
 #define BDRV_LS1_DS_CALLBACK place_your_function_call_back_here
 
 #define BDRV_LS1_DS_INT_EN (0x0) /*decimal 0*/
@@ -251,6 +263,14 @@
 #define BDRV_LS1_OC_CALLBACK place_your_function_call_back_here
 
 #define BDRV_LS1_OC_INT_EN (0x0) /*decimal 0*/
+
+#define BDRV_LS2_DS_CALLBACK place_your_function_call_back_here
+
+#define BDRV_LS2_DS_INT_EN (0x0) /*decimal 0*/
+
+#define BDRV_LS2_OC_CALLBACK place_your_function_call_back_here
+
+#define BDRV_LS2_OC_INT_EN (0x0) /*decimal 0*/
 
 #define BDRV_SEQ_ERR_CALLBACK place_your_function_call_back_here
 

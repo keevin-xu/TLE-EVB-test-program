@@ -42,9 +42,9 @@
 
 #define UART1_MAN_BAUDRATE (0x4B00) /*decimal 19200*/
 
-#define UART1_SCON (0x0) /*decimal 0*/
+#define UART1_SCON (0x40) /*decimal 64*/
 
-#define UART1_STD_EN (0x0) /*decimal 0*/
+#define UART1_STD_EN (0x1) /*decimal 1*/
 
 #define UART2_BAUDRATE (19203.07)
 

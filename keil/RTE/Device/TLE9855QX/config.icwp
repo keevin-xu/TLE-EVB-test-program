@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<icwpxml version="2.7.3">
-    <checksum>e44956b0bca5cb6391a70847d4e16569d2b3ee3bdadf525aa963b2e94b69479d</checksum>
+<icwpxml version="2.9.0">
+    <checksum>212dad8006f118f02f5662624ff8ec08a6e3749c5013d90b8085d1effaa3fe57</checksum>
     <XmlFile>ICW_TLE985x.xml</XmlFile>
     <XmlVersion>V1.3.1</XmlVersion>
     <ActiveElements>
@@ -9,8 +9,8 @@
             <value>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot;  font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Place your notes here!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</value>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot;  font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;Place your notes here!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</value>
             <dispValue>Place your notes here!</dispValue>
         </TextEdit>
         <CheckBox>
@@ -1371,23 +1371,8 @@ p, li { white-space: pre-wrap; }
         <ButtonGroup>
             <define>PORT.P0_DIR.PP2</define>
             <value>0</value>
-            <dispValue>0</dispValue>
+            <dispValue>1</dispValue>
         </ButtonGroup>
-        <ComboBox>
-            <define>PORT.P0_DATA.PP2</define>
-            <value>0</value>
-            <dispValue>0</dispValue>
-        </ComboBox>
-        <ComboBox>
-            <define>PORT.P0_OD.PP2</define>
-            <value>0</value>
-            <dispValue>0</dispValue>
-        </ComboBox>
-        <ComboBox>
-            <define>PORT.P0_2_ALT[1:0]</define>
-            <value>0</value>
-            <dispValue>0</dispValue>
-        </ComboBox>
         <ComboBox>
             <define>PORT.P0_2_PUD[1:0]</define>
             <value>0</value>
@@ -6838,11 +6823,6 @@ p, li { white-space: pre-wrap; }
             <value>0</value>
             <dispValue>0</dispValue>
         </ComboBox>
-        <ComboBox>
-            <define>UART1.SCON[7:6]</define>
-            <value>0</value>
-            <dispValue>0</dispValue>
-        </ComboBox>
         <CheckBox>
             <define>UART1.SCON.SM2</define>
             <value>0</value>
@@ -6853,26 +6833,6 @@ p, li { white-space: pre-wrap; }
             <value>0</value>
             <dispValue>0</dispValue>
         </CheckBox>
-        <CheckBox>
-            <define>UART1.STD_EN</define>
-            <value>0</value>
-            <dispValue>0</dispValue>
-        </CheckBox>
-        <CheckBox>
-            <define>SCU.BCON1.BR1_R</define>
-            <value>0</value>
-            <dispValue>0</dispValue>
-        </CheckBox>
-        <SpinBox>
-            <define>UART1.MAN_BAUDRATE</define>
-            <value>19200</value>
-            <dispValue>19200</dispValue>
-        </SpinBox>
-        <ComboBox>
-            <define>SCU.MODPISEL.URIOS1</define>
-            <value>0</value>
-            <dispValue>0</dispValue>
-        </ComboBox>
         <CheckBox>
             <define>UART1.RX_INT_EN</define>
             <value>0</value>
@@ -7482,6 +7442,46 @@ p, li { white-space: pre-wrap; }
             <define>MF.CSA_CTRL.CSA_GAIN</define>
             <value>0</value>
             <dispValue>0</dispValue>
+        </ComboBox>
+        <ComboBox>
+            <define>UART1.SCON[7:6]</define>
+            <value>1</value>
+            <dispValue>1</dispValue>
+        </ComboBox>
+        <SpinBox>
+            <define>UART1.MAN_BAUDRATE</define>
+            <value>19200</value>
+            <dispValue>19200</dispValue>
+        </SpinBox>
+        <CheckBox>
+            <define>SCU.BCON1.BR1_R</define>
+            <value>1</value>
+            <dispValue>1</dispValue>
+        </CheckBox>
+        <CheckBox>
+            <define>UART1.STD_EN</define>
+            <value>1</value>
+            <dispValue>1</dispValue>
+        </CheckBox>
+        <ComboBox>
+            <define>PORT.P0_DATA.PP2</define>
+            <value>0</value>
+            <dispValue>0</dispValue>
+        </ComboBox>
+        <ComboBox>
+            <define>PORT.P0_OD.PP2</define>
+            <value>0</value>
+            <dispValue>0</dispValue>
+        </ComboBox>
+        <ComboBox>
+            <define>PORT.P0_2_ALT[1:0]</define>
+            <value>0</value>
+            <dispValue>2</dispValue>
+        </ComboBox>
+        <ComboBox>
+            <define>SCU.MODPISEL.URIOS1</define>
+            <value>1</value>
+            <dispValue>1</dispValue>
         </ComboBox>
     </ActiveElements>
 </icwpxml>

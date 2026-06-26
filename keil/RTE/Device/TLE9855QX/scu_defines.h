@@ -48,7 +48,7 @@
 
 #define SCU_APCLK_MI_CLK (0x14) /*decimal 20*/
 
-#define SCU_BCON1 (0x0) /*decimal 0*/
+#define SCU_BCON1 (0x1) /*decimal 1*/
 
 #define SCU_BCON2 (0x0) /*decimal 0*/
 
@@ -64,7 +64,7 @@
 
 #define SCU_IEN0 (0x80000000) /*decimal 2147483648*/
 
-#define SCU_MODPISEL (0x0) /*decimal 0*/
+#define SCU_MODPISEL (0x40) /*decimal 64*/
 
 #define SCU_MODPISEL1 (0x0) /*decimal 0*/
 
