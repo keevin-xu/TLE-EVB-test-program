@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath></IncludePath>
+              <IncludePath>..\include</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -382,6 +382,13 @@
       <Groups>
         <Group>
           <GroupName>Source Group 1</GroupName>
+          <Files>
+            <File>
+              <FileName>uart_hello_world.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\uart_hello_world.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>::CMSIS</GroupName>
